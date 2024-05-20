@@ -22,7 +22,6 @@
 EXTRA_DIST = 50-default.conf.patch\
              90-rivendell.cnf\
              asound.conf\
-             auto.misc.template\
              auto.misc.client_template\
              auto.rd.audiostore.template\
              docbook5.sh\
