@@ -26,6 +26,7 @@ EXTRA_DIST = 50-default.conf.patch\
              auto.rd.xfer.template\
              docbook5.sh\
              paravel_support.pdf\
+             rd.xfer.autofs\
              rdairplay_skin.png\
              rdpanel_skin.png\
              samba_shares.conf\
