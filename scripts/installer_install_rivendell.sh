@@ -215,7 +215,7 @@ if test $MODE = "client" ; then
     ln -s /misc/traffic_import /home/rd/traffic_import
 
     rm -f /etc/auto.misc
-    cat /usr/share/ubuntu-rivendell-installer/auto.misc.client_template | sed s/@IP_ADDRESS@/$IP_ADDR/g > /etc/auto.misc
+    cat /usr/share/ubuntu-rivendell-installer/auto.rd.xfer.template | sed s/@IP_ADDRESS@/$IP_ADDR/g > /etc/auto.misc
     systemctl enable autofs
 
     #
