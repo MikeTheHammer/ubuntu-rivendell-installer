@@ -28,6 +28,7 @@ EXTRA_DIST = 50-default.conf.patch\
              docbook5.sh\
              paravel_support.pdf\
              rd.conf-sample\
+             rd.xfer.autofs\
              samba_shares.conf\
              xfce-config.tgz
 
