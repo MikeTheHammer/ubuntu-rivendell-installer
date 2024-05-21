@@ -22,8 +22,8 @@
 EXTRA_DIST = 50-default.conf.patch\
              90-rivendell.cnf\
              asound.conf\
-             auto.misc.client_template\
              auto.rd.audiostore.template\
+             auto.rd.xfer.template\
              deb_preseeds\
              docbook5.sh\
              paravel_support.pdf\
