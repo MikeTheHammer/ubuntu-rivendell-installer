@@ -148,7 +148,6 @@ if test $MODE = "server" ; then
     #
     # Initialize Automounter
     #
-    cp -f /usr/share/ubuntu-rivendell-installer/auto.misc.template /etc/auto.misc
     systemctl enable autofs
 
     #
@@ -162,7 +161,6 @@ if test $MODE = "standalone" ; then
     #
     # Initialize Automounter
     #
-    cp -f /usr/share/ubuntu-rivendell-installer/auto.misc.template /etc/auto.misc
     systemctl enable autofs
 
     #
